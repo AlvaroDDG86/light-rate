@@ -11,7 +11,7 @@ const routes: Array<RouteConfig> = [
     component: Home
   },
   {
-    path: '/rates/:day',
+    path: '/rates',
     name: 'rates',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
