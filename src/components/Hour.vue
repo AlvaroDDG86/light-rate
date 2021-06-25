@@ -1,7 +1,8 @@
 <template>
-    <div class="inline-block hour m-2">
+    <div class="inline-block hour m-2 animate__animated animate__bounceIn">
         <div
             class="bg-indigo-50 px-8 py-8 bg-white w-96 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+            :class="{ 'border-pink-400 border-2': active }"
         >
             <h3 class="py-2 text-4xl font-bold font-mono p-4 rounded-md" :class="getBGColor()">{{ value }} <span class="text-2xl">€/MWh</span></h3>
             <div class="text-center mt-2 leading-none flex justify-between w-full">
@@ -15,9 +16,8 @@
         </div>
     </div>
 </template>
-<script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
+<script>
+export default {
     props: {
         data: {
             type: Object,
@@ -29,6 +29,10 @@ export default Vue.extend({
                     datetime: ''
                 }
             }
+        },
+        active: {
+            type: Boolean,
+            default: false
         }
     },
     computed: {
@@ -51,5 +55,7 @@ export default Vue.extend({
             }
         }
     }
-})
+}
 </script>
+<style lang="scss" scoped>
+</style>
