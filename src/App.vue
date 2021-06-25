@@ -14,7 +14,7 @@
     <go-top
       bg-color="#ec4899"
       ripple-bg="rgb(29, 78, 216)"
-      max-width="340"
+      :max-width="340"
     ></go-top>
     <router-view/>
     <the-footer />
