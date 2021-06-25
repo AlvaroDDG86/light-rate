@@ -14,17 +14,21 @@
     <go-top
       bg-color="#ec4899"
       ripple-bg="rgb(29, 78, 216)"
+      max-width="340"
     ></go-top>
     <router-view/>
+    <the-footer />
   </div>
 </template>
 <script>
 import TheHeader from '@/components/TheHeader.vue'
+import TheFooter from '@/components/TheFooter.vue'
 import RockerSwitch from "vue-rocker-switch";
 import GoTop from '@inotom/vue-go-top';
 export default {
   components: {
     TheHeader,
+    TheFooter,
     RockerSwitch,
     GoTop
   },
@@ -43,7 +47,7 @@ export default {
 </script>
 <style lang="scss">
 #app {
-  min-width: 400px;
+  min-width: 350px;
 }
 .blub {
   width: 150px;
