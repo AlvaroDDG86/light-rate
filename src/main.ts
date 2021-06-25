@@ -20,10 +20,6 @@ Vue.use(VueDatePicker, {
 // Switch
 import "vue-rocker-switch/dist/vue-rocker-switch.css";
 
-// MOdal
-import VModal from 'vue-js-modal'
-Vue.use(VModal)
-
 // Loader spinner
 import VueLoading from 'vue-loading-overlay';
 import 'vue-loading-overlay/dist/vue-loading.css';
