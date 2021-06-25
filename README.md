@@ -1,5 +1,7 @@
 # light-rate
 
+[LIVE APP](https://wizardly-clarke-8d39e1.netlify.app)
+
 ## Project setup
 ```
 npm install
