@@ -1,6 +1,6 @@
 # light-rate
 
-[LIVE APP](https://wizardly-clarke-8d39e1.netlify.app)
+[LIVE APP](https://precioluzespana.netlify.app)
 
 ## Project setup
 ```
