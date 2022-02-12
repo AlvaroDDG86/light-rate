@@ -37,21 +37,23 @@ export default {
     },
     computed: {
         hour() {
-            return new Date(this.data.datetime).toLocaleTimeString().slice(0, -3)
+            return !this.data ? '' : new Date(this.data.datetime).toLocaleTimeString().slice(0, -3)
         },
         percent() {
-            return `${parseFloat(this.data.percentage).toFixed(2)} %`
+            return !this.data ? '' :  `${parseFloat(this.data.percentage).toFixed(2)} %`
         },
         value() {
-            return parseFloat(this.data.value).toFixed(2)
+            return !this.data ? '' : parseFloat(this.data.value).toFixed(2)
         }
     },
     methods: {
         getBGColor() {
-            return {
-                'bg-red-400': (this.data.value > 220),
-                'bg-yellow-200': (this.data.value < 220 && this.data.value > 150),
-                'bg-green-400': (this.data.value < 150)
+            if (this.data) {
+                return {
+                    'bg-red-400': (this.data.value > 220),
+                    'bg-yellow-200': (this.data.value < 220 && this.data.value > 150),
+                    'bg-green-400': (this.data.value < 150)
+                }
             }
         }
     }
