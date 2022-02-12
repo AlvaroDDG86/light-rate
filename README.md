@@ -1,5 +1,7 @@
 # light-rate
 
+[LIVE APP](https://precioluzespana.netlify.app)
+
 ## Project setup
 ```
 npm install
