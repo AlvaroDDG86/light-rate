@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hour should match with snapshot 1`] = `
+<div class="
+    banner
+    flex
+    inline-block
+    bg-blue-700
+    text-gray-100
+    overflow-hidden
+    h-20
+    whitespace-nowrap
+    text-center
+    relative
+  "><span class="text mb-auto mt-auto text-5xl uppercase absolute overflow-hidden">
+
+  </span></div>
+`;
