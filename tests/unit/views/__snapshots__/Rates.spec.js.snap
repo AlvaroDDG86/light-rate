@@ -6,7 +6,7 @@ exports[`rates should match with snapshot 1`] = `
     <banner-stub message=""></banner-stub>
     <div class="items-center flex justify-center bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 p-2">
       <div class="vue-datepicker text-gray-50">
-        <vue-date-picker-stub locale="[object Object]" mobilebreakpoint="576" name="datepicker" validate="true" buttonvalidate="MOSTRAR PRECIOS" buttoncancel="CERRAR" type="date" rangeinputtext="%d ~ %d" value="Mon Feb 14 2022 19:05:16 GMT+0100 (hora estándar de Europa central)" format="DD/MM/YYYY" placeholder="YYYY-MM-DD" color="#ec4899" contentclass="" maxdate="Mon Feb 14 2022 19:05:16 GMT+0100 (hora estándar de Europa central)" visibleyearsnumber="10" nocalendaricon="true" fullscreenmobile="true" tabindex="0" allowoverflow="true" zindex="1002"></vue-date-picker-stub>
+        <vue-date-picker-stub locale="[object Object]" mobilebreakpoint="576" name="datepicker" validate="true" buttonvalidate="MOSTRAR PRECIOS" buttoncancel="CERRAR" type="date" rangeinputtext="%d ~ %d" value="Mon Feb 14 2022 19:17:04 GMT+0100 (hora estándar de Europa central)" format="DD/MM/YYYY" placeholder="YYYY-MM-DD" color="#ec4899" contentclass="" maxdate="Mon Feb 14 2022 19:17:04 GMT+0100 (hora estándar de Europa central)" visibleyearsnumber="10" nocalendaricon="true" fullscreenmobile="true" tabindex="0" allowoverflow="true" zindex="1002"></vue-date-picker-stub>
       </div>
     </div>
     <h1 class="shadow-md bg-gray-50 dark:bg-gray-700 text-2xl font-light px-10 text-center dark:text-gray-50"></h1>

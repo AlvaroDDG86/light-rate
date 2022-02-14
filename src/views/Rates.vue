@@ -71,7 +71,7 @@ export default {
         start_date.setHours(0,0,0,0);
 
         const end_date = new Date(this.date);
-        end_date.setHours(23,0,0,0);
+        console.log(this.date)
         const res = await HttpService.getRates(start_date.toISOString(), end_date.toISOString())
         loader.hide()
         this.dataInfo = res.data.data.type
